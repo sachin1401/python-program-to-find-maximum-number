@@ -1,7 +1,7 @@
 # Maximum of two numbers in Python
 # Given two numbers, write a Python code to find the Maximum of these two numbers.
 
-# Method-1
+# Method-1__________Method-1
 
 # enter first number
 num1=int(input('enter first number :'))
@@ -16,13 +16,18 @@ else:
     print(num2)   
 
   
-#Method-2
+#Method-2___________Method-2
 
 # here we use max() function
-a=41
-b=9
 
+# enter the value of a
+a=int(input("Enter the value of a: "))
+
+# enter the value of b
+b=int(input("Enter the value of b: "))
+
+# max function
 maximum=max(a,b)
 
 # output
-print(maximum)
+print("Maximum number is :",maximum)
